@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1520408091 source:c:\users\zhengxin\project\circular_matrix\main.cpp
+	<iostream>
+	"Matrix.h"
+
+1520408633 c:\users\zhengxin\project\circular_matrix\include\matrix.h
+
+1520407968 source:c:\users\zhengxin\project\circular_matrix\src\matrix.cpp
+	"Matrix.h"
+
+1520409510 source:c:\users\zhengxin\工程\circular_matrix\src\matrix.cpp
+	"Matrix.h"
+
+1520409514 c:\users\zhengxin\工程\circular_matrix\include\matrix.h
+
+1520410241 source:c:\users\zhengxin\projects\circular_matrix\main.cpp
+	"Matrix.h"
+	<iostream>
+	<iomanip>
+	<cmath>
+
+1520840891 c:\users\zhengxin\projects\circular_matrix\include\matrix.h
+
