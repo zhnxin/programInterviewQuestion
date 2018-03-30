@@ -18,10 +18,10 @@ A 与 A' 存在如下关系：<br />
 ## solution
 
 >设辅助数列记为 {k<sub>n</sub>}, 假设正整数 A 的个位数为k<sub>n+1</sub>存在如下关系:<br />
-<code>k<sub>n</sub> = k<sub>n+1</sub>%2*10 + int(k<sub>n+1</sub>/2)</code><br />
-<code>k<sub>n-1</sub> = k<sub>n</sub>%2*10 + int(k<sub>n</sub>/2)</code><br />
-<code>k<sub>n-2</sub> = k<sub>n-1</sub>%2*10 + int(k<sub>n-1</sub>/2)</code><br />
-<code>...</code><br />
+<code>k<sub>n</sub> = k<sub>n+1</sub>%2*10 + int(k<sub>n+1</sub>/2)<br />
+k<sub>n-1</sub> = k<sub>n</sub>%2*10 + int(k<sub>n</sub>/2)<br />
+k<sub>n-2</sub> = k<sub>n-1</sub>%2*10 + int(k<sub>n-1</sub>/2)<br />
+...</code><br />
 则对于数列{a<sub>n</sub>},有<br />
 <code>a<sub>n</sub> = int(k<sub>n+1</sub>/2)</code><br />
 <code>a<sub>n-1</sub> = int(k<sub>n</sub>/2)</code><br />
