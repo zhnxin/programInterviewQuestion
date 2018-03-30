@@ -1,5 +1,6 @@
 #!/bin/python
 import sys
+MAX_PLACE_COUNT = 20
 
 class Excutor:
     def __init__(self,one_place,max_place_cout=10):
@@ -26,12 +27,12 @@ class Excutor:
             return False
 
 def main():
-    for i in (3,64):
-        for j in (2,9):
-            excutor = Excutor(j,i)
-            excutor.generate()
-            if excutor.get_num():                
-                print(excutor.get_num())
+    global MAX_PLACE_COUNT
+    for j in (2,9):
+        excutor = Excutor(j,MAX_PLACE_COUNT)
+        excutor.generate()
+        if excutor.get_num():                
+            print(excutor.get_num())
 
 if __name__ == '__main__':
     main()
