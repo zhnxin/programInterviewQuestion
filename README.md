@@ -15,7 +15,7 @@
 A 与 A' 存在如下关系：<br />
 <code> A' = 2A</code>
 
-## solution
+### note
 
 >设辅助数列记为 {k<sub>n</sub>}, 假设正整数 A 的个位数为k<sub>n+1</sub>存在如下关系:<br />
 <code>k<sub>n</sub> = 10 * k<sub>n+1</sub>%2 + int(k<sub>n+1</sub>/2)</code><br />
@@ -28,4 +28,13 @@ A 与 A' 存在如下关系：<br />
 <code>...</code><br />
 对于数列{k<sub>n</sub>}的递归中止条件为：<br />
 <code>k<sub>i</sub>/2 = k<sub>n+1</sub></code>
+
+#bubblesort.cpp
+
+>使用迭代而非循环实现冒泡排序
+
+### note
+>添加一个标识符——flag，初始化为true，当一次遍历过程中存在交换时置为false。<br/>
+迭代中止条件为遍历到list尾部且flag为true，即本次遍历不存在交换，否则重置flag，并从新开始遍历。
+
 
