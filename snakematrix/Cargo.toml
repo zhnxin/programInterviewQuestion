@@ -1,0 +1,6 @@
+[package]
+name = "snakematrix"
+version = "0.1.0"
+authors = ["zhengxin <zhengxin@kyee.com.cn>"]
+
+[dependencies]

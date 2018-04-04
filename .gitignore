@@ -39,10 +39,6 @@ nosetests.xml
 .pydevproject
 .settings
 *.log
-logs/*
-keys/*
-jecs/shell/*
-jperm/playbooks/*
 
 nohup.out
 tmp/*
@@ -53,3 +49,6 @@ tmp/*
 *.exe
 */bin/*
 */obj/*
+*.pdb
+*/debug/*
+*/target/*
